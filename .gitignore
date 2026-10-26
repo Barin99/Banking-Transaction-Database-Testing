@@ -1,0 +1,58 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Backup & Temp Files
+*.backup
+*.tmp
+*.temp
+~$*.xlsx
+~$*.xls
+*.bak
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+venv/
+/vendor/
+
+# Build & Output
+/build/
+/dist/
+/out/
+*.pyc
+__pycache__/
+
+# Test Results
+/test-results/
+*.junit.xml
+*.coverage
+
+# Logs
+*.log
+/logs/
+
+# OS Specific
+*.exe
+*.dll
+*.so
+
+# IDE Files
+.classpath
+.project
+.settings/
