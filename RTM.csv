@@ -1,0 +1,14 @@
+Requirement ID,Requirement,Scenario,Test Cases,Coverage
+REQ-001,User should access login page,TS-01,"TC-PB-001, TC-PB-009 to TC-PB-012",Covered
+REQ-002,User should register,TS-05 to TS-08,TC-PB-013 to TC-PB-018,Covered
+REQ-003,User should recover/lookup customer,TS-09 to TS-10,"TC-PB-019, TC-PB-020",Covered
+REQ-004,User should view accounts,TS-12 to TS-13,"TC-PB-021, TC-PB-022, TC-PB-051 to TC-PB-053",Covered
+REQ-005,User should transfer funds,TS-14 to TS-16,"TC-PB-023 to TC-PB-025, TC-PB-045 to TC-PB-046",Covered
+REQ-006,User should deposit funds,TS-17 to TS-18,"TC-PB-026, TC-PB-027, TC-PB-047",Covered
+REQ-007,User should withdraw funds,TS-19 to TS-20,"TC-PB-028, TC-PB-029, TC-PB-048",Covered
+REQ-008,User should pay bills,TS-21 to TS-22,"TC-PB-030, TC-PB-031, TC-PB-049 to TC-PB-050",Covered
+REQ-009,User should create account,TS-23,TC-PB-032,Covered
+REQ-010,User should request loan,TS-24,"TC-PB-033, TC-PB-054 to TC-PB-056",Covered
+REQ-011,User should update profile,TS-25,"TC-PB-034, TC-PB-057 to TC-PB-058",Covered
+REQ-012,User should logout,TS-26,"TC-PB-035, TC-PB-036",Covered
+REQ-013,Public service documentation should be available,TS-29,TC-PB-060 to TC-PB-066,Covered

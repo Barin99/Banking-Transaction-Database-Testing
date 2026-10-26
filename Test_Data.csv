@@ -1,0 +1,26 @@
+Test Data ID,Module,Field,Value,Purpose
+TD-001,Registration,First Name,Shamoon,Positive
+TD-002,Registration,Last Name,Ansari,Positive
+TD-003,Registration,Address,12 Test Street,Positive
+TD-004,Registration,City,Mumbai,Positive
+TD-005,Registration,State,Maharashtra,Positive
+TD-006,Registration,Zip Code,400001,Positive
+TD-007,Registration,Phone,9876543210,Positive
+TD-008,Registration,SSN,123456789,Synthetic test data only
+TD-009,Registration,Username,qa_shamoon_20260911,Positive
+TD-010,Registration,Password,QaTest@12345,Synthetic test data only
+TD-011,Login,Username,qa_shamoon_20260911,Positive after successful registration
+TD-012,Login,Password,QaTest@12345,Synthetic test data only
+TD-013,Login,Invalid Username,invalid_user_999,Negative
+TD-014,Login,Invalid Password,Wrong@12345,Negative
+TD-015,Transfer,Amount,100,Positive
+TD-016,Transfer,Amount,0,Boundary/negative
+TD-017,Transfer,Amount,-100,Negative
+TD-018,Deposit,Amount,250,Positive
+TD-019,Deposit,Amount,0,Boundary/negative
+TD-020,Withdraw,Amount,50,Positive
+TD-021,Withdraw,Amount,999999.99,Insufficient funds candidate
+TD-022,Bill Pay,Amount,75,Positive
+TD-023,Registration,Zip Code,ABCDE,Negative
+TD-024,Registration,Phone,123,Negative
+TD-025,Registration,Confirm Password,Different@123,Negative
